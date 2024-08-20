@@ -1,0 +1,82 @@
+* {
+    margin: 0
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.item-title{
+    font-size: large;
+}
+.item-price{
+    font-size: medium;
+
+}
+.item-quantity{
+    font-size: medium;
+
+}
+
+
+.card {
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.692);
+    background: #ededed;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 1rem;
+    align-items: center;
+}
+
+.card .img-card {
+    width: 15rem;
+    height: 10rem;
+    background-image: url("https://www.amd.com/system/files/2020-05/461767_MSI_Bravo_17_AMD_laptop_1260x709_0.png");
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size:cover;
+}
+
+.button-quantity{
+    background: #070002;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 2rem;
+    height: 2rem;
+    font-size: medium;
+    text-decoration: none;
+    border-color: transparent;
+}
+
+.total-section {
+    margin-top: 1rem;
+    background-color: #070002;
+    color: white; 
+    width: 20rem;
+    padding: 2rem;
+    text-align: center;
+    font-size: large;
+    border-radius: 10px;
+}
+
+.total-section .color {
+    display: flex;
+}
+
+.total-section .color div{
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+    border: solid 1px;
+}
